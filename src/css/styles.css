@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "HarmoniaRegular";
+    src: url(/src/fonts/Harmonia\ Sans\ W01\ Regular.ttf);
+}
+
+@font-face {
+    font-family: 'HarmoniaBold';
+    src: url(/src/fonts/Harmonia\ Sans\ Mono\ W01\ Bold.ttf);
+}
+
+body {
+    background-color: blue;
+}
+
+.list {
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+

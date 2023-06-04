@@ -1,22 +1,83 @@
-@font-face {
-    font-family: "HarmoniaRegular";
-    src: url(/src/fonts/Harmonia\ Sans\ W01\ Regular.ttf);
-}
 
-@font-face {
-    font-family: 'HarmoniaBold';
-    src: url(/src/fonts/Harmonia\ Sans\ Mono\ W01\ Bold.ttf);
-}
 
 body {
-    background-color: blue;
 }
 
 .list {
     list-style: none;
 }
 
-img {
-    display: block;
+ul {
+    margin: 0;
+    padding-left: 0;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* header */
+.header {
+    position: relative;
+   
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1804px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.product-bar {
+    display: flex;
+    gap: 125px;
+    margin: 0;
+}
+
+input {
+    display: none;
+}
+
+.header {
+    padding-top: 63px;
+    padding-bottom: 63px;
+}
+
+.menu-list {
+    display: flex;
+    gap: 128px;
+    justify-content: end;
+    align-items: center;
+}
+
+.logo-link {
+    position: absolute;
+    z-index: 2;
+    top: 42px;
+    right: 50%;
+}
+
+.enter-item {
+    font-family: 'HarmoniaBold';
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
